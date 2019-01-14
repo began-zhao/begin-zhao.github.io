@@ -75,7 +75,6 @@ function startHeartAnimation() {
 (function ($) {
     $.fn.typewriter = function () {
         this.each(function () {
-            alert(1);
             var $ele = $(this), str = $ele.html(), progress = 0;
             $ele.html('');
             var timer = setInterval(function () {
